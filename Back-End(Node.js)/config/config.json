@@ -1,7 +1,7 @@
  {
     "development": {
       "username": "root",
-      "password": "",
+      "password": "Fenerbahce1907",
       "database": "weatherdb",
       "host": "localhost",
       "dialect": "mysql"

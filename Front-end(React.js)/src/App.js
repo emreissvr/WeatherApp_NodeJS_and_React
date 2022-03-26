@@ -71,16 +71,19 @@ function App() {
       <div className="form-container">
 
         <div className="flex mt-6	mb-12 items-center justify-center">
+  
           <h3 className="text-4xl font-bold text-green-700 shadow-md py-1 px-3
-          rounded-lg bg-yellow-400 bg-opacity-50 ">forecast</h3>
+          rounded-lg bg-yellow-400 bg-opacity-50 "> Daily Weather App </h3>
+        
         </div>
+        
 
         <div className="flex flex-col my-48 items-center h-full">
           <hr className="h-2 bg-yellow-300  w-3/4 rounded-full mb-10" />
 
           <div className="flex mt-6	mb-12 items-center justify-center">
             <h1 className="text-green-600 text-3xl  shadow-md py-1 px-3
-            rounded-lg bg-yellow-300 bg-opacity-50">The Only Weather</h1>
+            rounded-lg bg-yellow-300 bg-opacity-50">Enter Your Location</h1>
           </div>
           <form noValidate onSubmit={handleSubmit} className="flex justify-center w-full">
             <input type="text"
