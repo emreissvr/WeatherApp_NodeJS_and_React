@@ -9,6 +9,15 @@ npm install
 ## Creating database and table with sequelize modelling and migration 
 
 ## Installation
+In the *dbconfig.js* created in the config folder, write the database password in single quotes to the right of 'root' like below image
+
+![](https://github.com/emreissvr/WeatherApp_NodeJS_and_React/blob/main/Front-end(React.js)/src/assets/Image.png)
+
+
+also fill in the password part in the config.json file like below image
+
+![](https://github.com/emreissvr/WeatherApp_NodeJS_and_React/blob/main/Front-end(React.js)/src/assets/Image2.png)
+
 
 Install MySQL to your computer from that site [Mysql Installation](https://dev.mysql.com/downloads/installer/) and then open your mysql command line in the vs code command line with below code 
 ```
@@ -16,10 +25,12 @@ Install MySQL to your computer from that site [Mysql Installation](https://dev.m
 mysql -u root -p 
 ```
 Enter your MySQL database password 
-- photo
+
+![](https://github.com/emreissvr/WeatherApp_NodeJS_and_React/blob/main/Front-end(React.js)/src/assets/Image3.png)
 
 Open another command window and type sequelize 
-- photo
+
+![](https://github.com/emreissvr/WeatherApp_NodeJS_and_React/blob/main/Front-end(React.js)/src/assets/Image4.png)
 
 Since the model is ready, create a migration file by directly typing the code below
 ```
@@ -53,11 +64,15 @@ Right click on the back-end file and open in integrated terminal, then run the b
 ```
 npm start
 ```
-photo
+
+![](https://github.com/emreissvr/WeatherApp_NodeJS_and_React/blob/main/Front-end(React.js)/src/assets/Image6.png)
+
+
 Open the front-end folder with open in integrated terminal and then run the front-end partition on the "localhost:3000" port with the command below.
 ```
 npm start
 ```
-photo
-photo
+
+![](https://github.com/emreissvr/WeatherApp_NodeJS_and_React/blob/main/Front-end(React.js)/src/assets/Image5.png)
+
 
